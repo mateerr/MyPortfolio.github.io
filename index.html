@@ -19,7 +19,7 @@
   <body>
 
     <!-- NAV -->
-    <nav class="navbar navbar-expand-md navbar-ligth">
+    <nav  id="barranav"class="navbar navbar-expand-md navbar-ligth">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -33,13 +33,13 @@
               <a class="nav-link active" aria-current="page" href="#">  Inicio  </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"> About Me  </a>
+              <a class="nav-link" href="#aboutme"> Sobre Mí  </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"> Skills  </a>
+              <a class="nav-link" href="#skills"> Habilidades  </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"> Contactame  </a>
+              <a class="nav-link" href="#contact"> Contactame  </a>
             </li>
             
         </div>
@@ -59,7 +59,7 @@
 <main >
   <section class="presentacion align-items-stretch">
     <div class=" presentacion-principal d-flex flex-column justify-content-center align-items-center">
-        <img class="presentacion-img-propia" src="./imgs/MyOficialPic.png" alt="Foto De M.Riche" >
+        <img class="presentacion-img-propia" src="/imgs/MyOficialPic.png" alt="Foto De M.Riche" >
         <h1> Hola, Soy Mateo Riche.</h1>
         <h2> <span class="effect">Y Soy  <p> Desarrollador Web.</p> </span></h2>
 
@@ -68,20 +68,20 @@
 
 
   <!-- Seccion About Me-->
-  <section class="sobre-mi dark-side " >
+  <section id="aboutme"class="sobre-mi dark-side " >
     <div class="contenedor">
       <h2 class="title"> Sobre Mí </h2>
         <p class="seccion-texto ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-          Quidem omnis nam ut nisi cum nihil maiores, quaerat molestias
-           dolore mollitia fuga est ad. Consequuntur molestias quos 
-           recusandae enim! Dolor, nam.
+          Soy un estudiante de 18 años, y soy un entusiasta de mi futuro.
+          Lucho por mis sueños, y no me pongo limites, cada dia busco superarme.
+          Vivo en Buenos Aires, Argentina. 
+          A continuación, podras ver mi experiencia. 
         </p>
 
     </div>
   </section>
 
-  <section class="section-skills light-side">
+  <section  id="skills" class="section-skills light-side" >
     <div class="container-fluid text-center">
       <div class="row">
         <!-- Desarrollo Web -->
@@ -89,8 +89,9 @@
           <i class="bi bi-pc-display"></i>
           <p class="skills-titulo">  Experiencia </p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus aspernatur exercitationem perspiciatis perferendis nisi architecto, labore numquam quae quod fugiat enim aperiam itaque! Autem minima a dolores odio, nesciunt fuga.
-          </p>
+            Los lenguajes que aprendi fueron mediante la busqueda personal de información y 
+            por la tutoria de mis profesores. Actualmente, me encuentro cursando 6to año
+            en la técnica n°1 de Grand Bourg, y me entusiasma el desarrollo web.
           <p class="badges-contenedor">
             <span class="badge text-bg-primary"> HTML </span>
             <span class="badge text-bg-primary"> CSS </span>
@@ -107,12 +108,14 @@
           <i class="bi bi-book-half"></i>
           <p class="skills-titulo">  En Progreso </p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus aspernatur exercitationem perspiciatis perferendis nisi architecto, labore numquam quae quod fugiat enim aperiam itaque! Autem minima a dolores odio, nesciunt fuga.
+            Seguire perfeccionando los lenguajes conocidos, e incorporare nuevas tecnologías para
+            poder mejorar la atencion a mis clientes y el nivel de mis proyectos. Estos son algunos 
+            lenguajes que me gustaria incorporar o perfeccionar.
           </p>
           <p class="badges-contenedor">
-            <span class="badge text-bg-primary"> CodigoFacilito </span>
-            <span class="badge text-bg-primary"> CSS </span>
             <span class="badge text-bg-primary"> JavaScript </span>
+            <span class="badge text-bg-primary"> Python </span>
+            <span class="badge text-bg-primary"> CSS </span>
             <span class="badge text-bg-primary">BootStrap</span>
 
           </p>
@@ -125,83 +128,10 @@
 
   </section>
 
-  <section class="projects light-side d-flex flex-column">
-    <h2 class="title"> Mis Proyectos  </h2>
-    <h3 class="section-descripcion">
-      Mira algunos de mis trabajos!
-    </h3>
-
-    <!-- Galeria  -->
-
-    <div class="container text-center projects-contenedor">
-      <div class="row">
-        <div class="col-12 col-md-12 col-lg-4">
-          <div class="project">
-            <img src="./imgs/bubble-frame.png" alt="Imagen de Repositorio de GitHub">
-              <div class="overlay">
-                <p> Club Atlético San Miguel</p>
-                  <div class="icon-contenedor justify-content-center align-items-center">
-                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-github"></i>
-                    </a>
-                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-globe-central-south-asia"></i>
-                    </a>
-
-                  </div>
-              </div>
-          </div>
-
-        </div>
-        <div class="col-12 col-md-12 col-lg-4">
-          <div class="project">
-            <img src="./imgs/bubble-frame.png" alt="Imagen de Repositorio de GitHub">
-              <div class="overlay">
-                <p> Club Atlético San Miguel</p>
-                  <div class="icon-contenedor justify-content-center align-items-center">
-                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-github"></i>
-                    </a>
-                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-globe-central-south-asia"></i>
-                    </a>
-
-                  </div>
-              </div>
-          </div>
-
-        </div>
-        <div class="col-12 col-md-12 col-lg-4">
-          <div class="project">
-            <img src="./imgs/bubble-frame.png" alt="Imagen de Repositorio de GitHub">
-              <div class="overlay">
-                <p> Club Atlético San Miguel</p>
-                  <div class="icon-contenedor justify-content-center align-items-center">
-                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-github"></i>
-                    </a>
-                    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
-                      <i class="bi bi-globe-central-south-asia"></i>
-                    </a>
-
-                  </div>
-              </div>
-          </div>
-
-        </div>
-        
-
-      </div>
-
-    </div>
-    <a href="https://github.com/mateerr" target="_blank" rel="noopener noreferrer">
-    <button type="button" class="btn btn-info"> Más Proyectos <i class="bi bi-arrow-left-circle-fill"></i> </button>
-  </a>
-</section>
 
 <section class="contacto">
   <div class="contenido-seccion text justify-content-center align-items-center">
-    <h2> Contactame! </h2>
+    <h2 id="contact"> Contactame! </h2>
     <div class="row d-flex">
       <div class="columna col-12">
         <form action="https://formsubmit.co/mateogriche@gmail.com" method="POST">
@@ -227,7 +157,7 @@
 <!-- Foooter-->
 <footer class=" d-flex flex-column align-items-center justify-content-center"> 
   <img class="footer-logo" src="imgs/Logo.png" alt="logo de la pagina">
-  <p class="footer-text text-center"> Si dios está conmigo, quien contra mí. <br> </p>
+  <p class="footer-text text-center"> Entusiasta del Futuro. <br> </p>
   <div class="icons d-flex flex-wrap align-items-stretch justify-content-center ">
     <a href="https://www.instagram.com/mateerr_/" target="_blank"><i class="bi bi-instagram"></i></a>
     <a href="mailto:mateogriche@gmail.com" target="_blank"><i class="bi bi-envelope-at-fill"></i></a>
